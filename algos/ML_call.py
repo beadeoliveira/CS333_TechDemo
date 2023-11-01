@@ -1,6 +1,6 @@
 import openai
 
-api_key = "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"
+api_key = "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"
 api_url = "https://api.openai.com/v1/moderations"
 
 openai.api_key = api_key
