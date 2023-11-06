@@ -60,7 +60,7 @@ def ml_moderation(input):
 #   }
 # }]
 # None
-
+#
 if __name__ == "__main__":
-    text = "I hate you slut."
+    text = "f**k you."
     print(ml_moderation(text))
