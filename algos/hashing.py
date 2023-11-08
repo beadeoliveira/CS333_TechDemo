@@ -1,17 +1,14 @@
 import pandas as pd
+from pre_processing import remove_punctuation
 
+# TODO: need to figure out how to control for multiple word bad words
 
-# df = pd.read_csv('../docs/bad_words.txt')
-# # read_file.to_csv('../docs/bad_words.csv')
-# # df = df.drop('Unamed: 0', axis = 'columns'
-# df.rename(columns = {'2g1c':'Words'}, inplace = True)
-# df.to_csv('../docs/bad_words.csv')
-# print(df.head())
 
 def hashing_moderation(input):
     # first method is to take a set of unique words and parse through the words
     bad_words = pd.read_csv('../docs/bad_words.csv')
-    split_input = input.split(' ')
+    processed_input = remove_punctuation(input)
+    split_input = processed_input.split(' ')
     words = list(set(split_input))
     found_words = []
     for word in words:
@@ -28,5 +25,5 @@ def hashing_moderation(input):
 
 
 if __name__ == "__main__":
-    input_val = 'F**k you.'
+    input_val = 'Throw a ball.'
     print(hashing_moderation(input_val))

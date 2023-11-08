@@ -62,5 +62,17 @@ def ml_moderation(input):
 # None
 #
 if __name__ == "__main__":
-    text = "f**k you."
+    text = "what is that white person doing over there."
     print(ml_moderation(text))
+
+
+
+
+
+
+
+
+
+
+
+
