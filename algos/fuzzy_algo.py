@@ -4,6 +4,7 @@ from fuzzywuzzy import fuzz
 import numpy
 import Levenshtein
 
+
 def levenshteinMatrix(t1, t2):
     # create a distance matrix with the lenght of each word as the row and column size
     distances = numpy.zeros((len(t1) + 1, len(t2) + 1))
