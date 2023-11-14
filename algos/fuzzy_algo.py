@@ -46,7 +46,7 @@ def levenshtein_distance(word1, word2):
 
 def fuzzy_calculation(word1, word2):
     dist = levenshtein_distance(word1.lower(), word2.lower())
-    print(dist)
+    # print(dist)
     l = max(len(word1), len(word2))
     ratio = dist / l
     score = (1 - ratio)*100
