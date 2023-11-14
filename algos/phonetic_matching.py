@@ -30,7 +30,7 @@ def process_word(s):
     init_code = ''
     if s[0] in soundex_dict:
         init_code = soundex_dict[s[0]]
-        print(init_code)
+        # print(init_code)
     if len(s) > 1:
         for letter in s[1:]:
             if letter not in vowels_plus:
