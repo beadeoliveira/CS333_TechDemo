@@ -85,8 +85,8 @@ def lev_and_soundex(words, bad_words):
 '''
 
 
-def hashing_algo(options, input_s, file):
-
+def hashing_algo(options, input_s):
+    file = '../docs/bad_words.csv'
     bad_words = pd.read_csv(file)
     bad_words = bad_words.set_index('Words')
 
@@ -95,21 +95,21 @@ def hashing_algo(options, input_s, file):
 
     ret = []
 
-    if options == ['s']:
+    if options == 's':
         sdx = soundex_hashing(words, bad_words)
         flagged = [x[0] for x in sdx[0]]
         ret = [flagged, sdx[1]]
 
-    if options == ['l']:
+    if options == 'l':
         ret = levenshtein_hashing(words, bad_words)
 
-    if options == ['b']:
+    if options == 'b':
         ret = basic_hashing_moderation(words, bad_words)
 
-    if options == ['sl']:
+    if options == 'sl':
         ret = lev_and_soundex(words, bad_words)
 
-    if options == ['a']:
+    if options == 'a':
         basic_hash = basic_hashing_moderation(words, bad_words)
         if not basic_hash[0]:
             ret = lev_and_soundex(words, bad_words)
@@ -145,9 +145,8 @@ if __name__ == "__main__":
     path_to_file = '../docs/bad_words.csv'
     input_val = "You are a piece of shit. F*ck you slut."
     print("Input was: " + input_val)
-    print("All: ", hashing_algo(['a'], input_val, path_to_file))
-    print("Basic Hash Match: ", hashing_algo(['b'], input_val, path_to_file))
-    print("Soundex Only: ", hashing_algo(['s'], input_val, path_to_file))
-    print("Levenshtein only: ",  hashing_algo(['l'], input_val, path_to_file))
-    print("Soundex + Levenshtein: ", hashing_algo(['sl'], input_val, path_to_file))
-
+    print("All: ", hashing_algo('a', input_val))
+    print("Basic Hash Match: ", hashing_algo('b', input_val))
+    print("Soundex Only: ", hashing_algo('s', input_val))
+    print("Levenshtein only: ", hashing_algo('l', input_val))
+    print("Soundex + Levenshtein: ", hashing_algo('sl', input_val))
