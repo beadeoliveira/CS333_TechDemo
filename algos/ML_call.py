@@ -1,5 +1,4 @@
-import openai
-
+from openai import OpenAI
 import os
 from dotenv import load_dotenv
 
@@ -8,14 +7,12 @@ load_dotenv()
 api_key = os.environ['API_KEY']
 api_url = "https://api.openai.com/v1/moderations"
 
-openai.api_key = api_key
+client = OpenAI(api_key=api_key)
 
 
 def moderation_api(input_text):
-    response = openai.Moderation.create(
-        input=input_text,
-    )
-    output = response["results"]
+    response = client.moderations.create(input=input_text)
+    output = response.results
     # use results[0] for the categories and results[1] for the category scores
     return output
 
@@ -23,14 +20,14 @@ def moderation_api(input_text):
 def ml_moderation(input):
     # decide which format our input will be
     response = moderation_api(input)[0]
-    flag = response['flagged']
+    flag = response.flagged
     if not flag:
         return False
     flagged_vals = []
-    for cat in response['categories']:
-        if response['categories'][cat]:
-            val = response['category_scores'][cat]
-            flagged_vals.append([cat, val])
+    for cat in response.categories:
+        term = cat[0]
+        if cat[1]:
+            flagged_vals.append(term)
     return True, flagged_vals
 
     # SAMPLE RESPONSE [<OpenAIObject at 0x7ff49fd1a220> JSON: {
