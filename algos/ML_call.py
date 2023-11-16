@@ -1,6 +1,11 @@
 import openai
 
-api_key = "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"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+api_key = os.environ['API_KEY']
 api_url = "https://api.openai.com/v1/moderations"
 
 openai.api_key = api_key
