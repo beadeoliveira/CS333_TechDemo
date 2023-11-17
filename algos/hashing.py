@@ -45,7 +45,7 @@ def soundex_hashing(split_words, bad_words):
 
 
 def levenshtein_hashing(split_words, bad_words):
-    # TODO: we need to decide what the threshold is (0.75)
+    # Threshold is (0.75)
     flagged = []
     not_flagged = []
     for word in split_words:
@@ -64,11 +64,10 @@ def lev_and_soundex(words, bad_words):
     flagged = []
     flagged_words = soundex_hashing(words, bad_words)[0]
     for word in flagged_words:
-        # print(word[0])
         matching_sdx = bad_words.loc[bad_words['soundex'] == word[1]]
         for index, row in matching_sdx.iterrows():
             lev_score = fuzzy_calculation(index, word[0])
-            # NOTE: threshold goes here, we NEED to decide what that value is
+            # Threshold here
             if lev_score >= 75:
                 flagged.append(word[0])
                 break
@@ -120,12 +119,12 @@ def hashing_algo(options, input_s):
             fnl_not_in = list(set(not_init) - set(add_words[0]))
             ret = init_flagged + add_words[0], fnl_not_in
 
-    ttl_score = 0
-
     if not interpret_hashing(ret[0]):
         return False
 
-    # How to do total score for non-perfect words, how do we know what word it is
+    # TODO: if we want to do the score system, \
+    #  how to do total score for non-perfect words, how do we know what word it is
+
 
     # for word in ret[0]:
     #     ttl_score += bad_words.loc[word]['ranking']
