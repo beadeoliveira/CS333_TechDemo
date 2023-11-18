@@ -1,23 +1,62 @@
-#Working with the Twitter dataset of offensive and non-offensive tweets
+# Working with the Twitter dataset of offensive and non-offensive tweets
 
 import pandas as pd
-#Offensive column is a scale of offensiveness from 0 (not offensive) to 9 (very offensive)
-#I'm going to work with just values 1000 of 0 and values of 6-9 (993 strings) to get us a baseline
+
+# Offensive column is a scale of offensiveness from 0 (not offensive) to 9 (very offensive)
+# I'm going to work with just values 1000 of 0 and values of 6-9 (993 strings) to get us a baseline
 df = pd.read_csv("../docs/test_dataset.csv")
-sample_dfHIGH = df.loc[(df['offensive_language'] >= 7)]
-#sample_df6 = df[23792:24156]
-sample_dfLOW = df[:136]
+sample_dfHIGH = df[-100:]
+# sample_df6 = df[23792:24156]
+sample_dfLOW = df[:100]
 sample_df = pd.concat([sample_dfLOW, sample_dfHIGH])
 
-#Data Frame with the Tweets and True Labels
+# Data Frame with the Tweets and True Labels
 metrics_df = pd.DataFrame()
 metrics_df["tweet"] = sample_df["tweet"]
 metrics_df["offensive_language"] = sample_df["offensive_language"]
-metrics_df["offensive_language"] = metrics_df['offensive_language'].replace({0: 'False', 6: 'True', 7: 'True', 8: 'True', 9: 'True'})
+metrics_df["offensive_language"] = metrics_df['offensive_language'].replace(
+    {0: 'False', 6: 'True', 7: 'True', 8: 'True', 9: 'True'})
 metrics_df = metrics_df.rename(columns={"offensive_language": "Predicted Labels"})
 
-#Running Basic Hashing
+# Running the ML Call
+import time
+mlstart_time = time.time()
+ml = []
+from algos.ML_call import *
+
+# Need to only use 3 per minute
+
+count = 0
+for tweet in metrics_df["tweet"]:
+    if count % 2 == 0 and count!=0:
+        print("Sleeping")
+        time.sleep(61)
+    ret = ml_moderation(tweet)
+    if isinstance(ret, bool):
+        ml.append("False")
+    elif isinstance(ret, tuple):
+        ml.append("True")
+    count += 1
+    print(count)
+metrics_df["ML Call"] = ml
+
+ml_accuracy = []
+for index, row in metrics_df.iterrows():
+    if row["ML Call"] == "True" and row["Predicted Labels"] == "True":
+        ml_accuracy.append("True Positive")
+    elif row["ML Call"] == "True" and row["Predicted Labels"] == "False":
+        ml_accuracy.append("False Positive")
+    elif row["ML Call"] == "False" and row["Predicted Labels"] == "False":
+        ml_accuracy.append("True Negative")
+    else:
+        ml_accuracy.append("False Negative")
+metrics_df["ML Call Accuracy"] = ml_accuracy
+print(metrics_df["ML Call Accuracy"].value_counts())
+print(time.time() - mlstart_time)
+
+# Running Basic Hashing
 from algos.hashing import *
+bhtime = time.time()
 basic_hashing = []
 for tweet in metrics_df["tweet"]:
     ret = hashing_algo("b", tweet)
@@ -39,9 +78,11 @@ for index, row in metrics_df.iterrows():
         bh_accuracy.append("False Negative")
 metrics_df["Basic Hashing Accuracy"] = bh_accuracy
 print(metrics_df["Basic Hashing Accuracy"].value_counts())
+print(time.time() - bhtime)
 
-#Running Levenshtein
+# Running Levenshtein
 levenshtein = []
+levenshteintime = time.time()
 for tweet in metrics_df["tweet"]:
     ret = hashing_algo("l", tweet)
     if isinstance(ret, bool):
@@ -62,9 +103,11 @@ for index, row in metrics_df.iterrows():
         levenshtein_accuracy.append("False Negative")
 metrics_df["Levenshtein Accuracy"] = levenshtein_accuracy
 print(metrics_df["Levenshtein Accuracy"].value_counts())
+print(time.time() - levenshteintime)
 
-#Running Soundex
+# Running Soundex
 soundex = []
+soundextime = time.time()
 for tweet in metrics_df["tweet"]:
     ret = hashing_algo("s", tweet)
     if isinstance(ret, bool):
@@ -85,9 +128,11 @@ for index, row in metrics_df.iterrows():
         soundex_accuracy.append("False Negative")
 metrics_df["Soundex Accuracy"] = soundex_accuracy
 print(metrics_df["Soundex Accuracy"].value_counts())
+print(time.time() - soundextime)
 
-#Running Soundex and Levenshtein
+# Running Soundex and Levenshtein
 SL = []
+sltime = time.time()
 for tweet in metrics_df["tweet"]:
     ret = hashing_algo("sl", tweet)
     if isinstance(ret, bool):
@@ -108,9 +153,11 @@ for index, row in metrics_df.iterrows():
         SL_accuracy.append("False Negative")
 metrics_df["Soundex and Levenshtein Accuracy"] = SL_accuracy
 print(metrics_df["Soundex and Levenshtein Accuracy"].value_counts())
+print(time.time() - sltime)
 
-#Running All Methods
+# Running All Methods
 all = []
+alltime = time.time()
 for tweet in metrics_df["tweet"]:
     ret = hashing_algo("a", tweet)
     if isinstance(ret, bool):
@@ -131,29 +178,6 @@ for index, row in metrics_df.iterrows():
         all_accuracy.append("False Negative")
 metrics_df["All Methods Accuracy"] = all_accuracy
 print(metrics_df["All Methods Accuracy"].value_counts())
+print(time.time() - alltime)
 
-
-#Running the ML Call
-ml = []
-from algos.ML_call import *
-#for tweet in metrics_df["tweet"]:
-   # ret = ml_moderation(tweet)
-   # if isinstance(ret, bool):
-   #     ml.append("False")
-  #  elif isinstance(ret, tuple):
- #       ml.append("True")
-#metrics_df["ML Call"] = ml
-#print(metrics_df["ML Call"].value_counts())
-
-ml_accuracy = []
-#for index, row in metrics_df.iterrows():
-    #if row["ML Call"] == "True" and row["Predicted Labels"] == "True":
-    #    ml_accuracy.append("True Positive")
-   # elif row["ML Call"] == "True" and row["Predicted Labels"] == "False":
-     #   ml_accuracy.append("False Positive")
-    #elif row["ML Call"] == "False" and row["Predicted Labels"] == "False":
-   #     ml_accuracy.append("True Negative")
-  #  else:
- #       ml_accuracy.append("False Negative")
-#metrics_df["ML Call Accuracy"] = levenshtein_accuracy
-#print(metrics_df["ML Call Accuracy"].value_counts())
+metrics_df.to_csv('out.csv')
