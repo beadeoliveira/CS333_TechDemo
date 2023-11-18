@@ -26,6 +26,8 @@ vowels_plus = "aeiou*@"
 
 def process_word(s):
     s = s.lower()
+    if len(s) < 1:
+        return ''
     new_s = s[0].upper()
     init_code = ''
     if s[0] in soundex_dict:

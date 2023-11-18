@@ -1,8 +1,8 @@
 import pandas as pd
-from pre_processing import remove_punctuation
-from multi_word import multi_word
-from phonetic_matching import process_word
-from fuzzy_algo import fuzzy_calculation
+from algos.pre_processing import remove_punctuation
+from algos.multi_word import multi_word
+from algos.phonetic_matching import process_word
+from algos.fuzzy_algo import fuzzy_calculation
 
 
 # IDEA: do (1) basic hashing (2) soundex (3) leveshtein
