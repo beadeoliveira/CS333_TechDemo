@@ -28,7 +28,7 @@ from algos.ML_call import *
 
 count = 0
 for tweet in metrics_df["tweet"]:
-    if count % 2 == 0 and count!=0:
+    if count % 2 == 0 and count != 0:
         print("Sleeping")
         time.sleep(61)
     ret = ml_moderation(tweet)
