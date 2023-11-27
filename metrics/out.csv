@@ -1,0 +1,228 @@
+,tweet,Predicted Labels,ML Call,ML Call Accuracy,Basic Hashing,Basic Hashing Accuracy,Levenshtein,Levenshtein Accuracy,Soundex,Soundex Accuracy,Soundex and Levenshtein,Soundex and Levenshtein Accuracy,All,All Methods Accuracy
+0,!!! RT @mayasolovely: As a woman you shouldn't complain about cleaning up your house. &amp; as a man you should always take the trash out...,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+1,"""@Addicted2Guys: -SimplyAddictedToGuys http://t.co/1jL4hi8ZMF"" woof woof hot scally lad",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+2,"""@ArizonasFinest6: Why the eggplant emoji doe?""y he say she looked like scream lmao",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+3,"""@CB_Baby24: @white_thunduh alsarabsss"" hes a beaner smh you can tell hes a mexican",False,True,False Positive,True,False Positive,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+4,"""@DevilGrimz: @VigxRArts you're fucking gay, blacklisted hoe"" Holding out for #TehGodClan anyway http://t.co/xUCcwoetmn",False,True,False Positive,True,False Positive,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+5,"""@DomWorldPeace: Baseball season for the win. #Yankees"" This is where the love started",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+6,"""@DunderbaIl: I'm an early bird and I'm a night owl, so I'm wise and have worms.""",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+7,"""@El_Grillo1: Pit Bulls Photographed As Lovely Fairy Tale Creatures http://t.co/Q0Sm89oOLh&#8221;
+
+They *are* fairy tale creatures.",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+8,"""@FloKid88: As long as the Lakers trash from now on, I could careless. And that's real."". CC: @BENBALLER hahaha",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+9,"""@FunnyPicsDepot: this the ""I play soccer, cheat on girls, and wear khaki coloured cargos"" haircut http://t.co/ZUai7qWBIR"" &#128514; yup",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+10,"""@KnightfanNeal #UCFPINKPARTY come on stay alive knights nation!!!!"" This is still the early bird special. #ComeAtMeUT",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+11,"""@MLBNetwork: Stay tuned to @MLBNetwork for an update on the report that @Yankees 1B @teixeiramark25 will be out 8-10 weeks"" @dliming35 #bum",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+12,"""@M_Rad: &#8220;@DezDLT: ""I play soccer, cheat on girls, and wear khaki coloured cargos"" haircut http://t.co/tYCIhD6PkW&#8221; yes lmfao""@soccerboy_04",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+13,"""@MarkRoundtreeJr: LMFAOOOO I HATE BLACK PEOPLE https://t.co/RNvD2nLCDR"" This is why there's black people and niggers",False,True,False Positive,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+14,"""@Mesha_nojas: @_Vontethekidd &#128079;&#128079;&#128079;&#128079;&#128588;"" I got hicks lol",False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+15,"""@MotherJones: 10 birds your grandkids may never see, thanks to climate change http://t.co/XqmXHkAsWt http://t.co/RbITeGRnhm"" #Climate",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+16,"""@UberFacts: 15 sad TV character deaths we're still bitter over... http://t.co/uLclFUF8nC http://t.co/1RXYQOOsM0""ned stark was the man",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+17,"""@WBUR: A smuggler explains how he helped fighters along the ""Jihadi Highway"": http://t.co/UX4anxeAwd""",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+18,"""@Yankees: Down 6-1, #Yankees look to rally in the bottom of the 9th."" #RALLYCAP",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+19,"""@ayyee_ceee_: One mans trash &#128686; is another mans treasure &#127942;""",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+20,"""@g0rillaz0e: Sitting on my window sill, window open, bird tries to fly in. Smacked it. #ProtectTheAnimals"" @peta",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+21,"""@greggutfeld: a video an entire media will likely mock. http://t.co/XFr1cRXWSm"" i am such a crybaby",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+22,"""@hxhassan: Jihadi patron Hajjaj al-Ajmi is arrested at Kuwait airport https://t.co/ZmloKfWDQl""",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+23,"""@iTrapWatermelon: tweety bird tho &#128514;&#128514;&#128514;&#128514;https://t.co/JbnoNM3N1P""",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+24,"""@jethromass: Photo: http://t.co/CxRs5BVhPw"" he is in sole heaven",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+25,"""@kazooook: We actin like it's the 7th day @WesGodLaFlare http://t.co/s9gMtEvpaT""
+&#128123;spook",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+26,"""@metroadlib: colored contacts in your eyes?
+blinders on mine.
+cause i can't see you at all."" Lmao",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+27,"""@nohands_24: ""@20ToLife_: ""@nohands_24: ""@DejaaLeeann_: @B_Coleman2 swears I'm #1 man"" easily"" easily"" behind Austin"" nip?",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+28,"""@oldpicsarchive: H.G.Wells and Charlie Chaplin http://t.co/sTiDDHK3WT"" #History #Photography",False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+29,"""@rhythmixx_: I told Mariam to but cigarettes for her birthday""
+
+You also called me trash rn",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+30,"""@riananewman: @22EdHam brownies tonight"" what kind?!?!",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+31,"""@rugbysocklad: Fit lads! Nice gear! http://t.co/ThnXX1lC1M"" these scally lads n trainers would get it",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+32,"""@socass_: Dude remember this wop video? @00sexilexi00 http://t.co/P3HEuBOQBu"" OMG WHERE DID YOU FIND THAT",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+33,"""@soxdawg: RAWR!! RT @skinrubberboi: ""My"" sexy French scally. I love him! #frenchscally http://t.co/5idQ3R5Akz"" sexy scally woof woof",False,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+34,"""@worldtraveIs: Baby albino &#128034; http://t.co/2tYTQJ3fec"" @Meeeesh1395",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+35,"""Brownies for my brownie"" I love this movie. &#128517;",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+36,"""Generate ASCII boxes with NodeJS"" all I see is the ability to bring flappy-bird in node via ASCII tubes and bird ^_^ http://t.co/lRJWDFhv7T",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+37,"""Hey go look at that video of the man that found the kidnapped girls in Ohio........what a nigger"" - #shitmybosssays",False,True,False Positive,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+38,"""I am a thrill billy..with a hillbilly heart."" -@billyraycyrus. HAHAHAHAHA Jesus Murphy!",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+39,"""Is that an albino Mexican?""
+""No dad, he's Asian.""",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+40,"""Just follow the yellow brick twitter.""",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+41,"""OVO"" &#8220;@Allthingsfresh3: &amp; kendrick lamar still trash&#8221;",False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+42,"""Our people"". Now is the time for the Aryan race 2 stand up and say ""no more"". Before the mongerls turn the world into a ghetto slum. 1488",False,True,False Positive,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+43,"""The devil grows inside the hearts of the selfish and wicked
+White, brown, yellow and black color is not restricted""",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+44,"""The water isn't yellow, I'm a healthy student""",False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+45,"""They have to. That division is trash @NoMeek_JustMilz: Saints gon win the NFC South...watch""",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+46,"""This recipe calls for a leftover brownie. What the hell is a LEFTOVER brownie? That's just a brownie you haven't eaten yet.""-@EricaNadine26",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+47,"""Two roads diverged in a yellow wood, and I chose the one to J&#246;tunheimr""
+- Robert Frost Giant",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+48,"""We hate niggers, we hate faggots and we hate spics""-kkk rally",False,True,False Positive,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+49,"""Why people think gay marriage is okay is beyond me. Sorry I don't want my future son seeing 2 fags walking down the street holding hands an",False,True,False Positive,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+50,"""YAH"" has said in his word that the Mtzra'ym(egyptians) are his people and Ysrah'al is his inheritance and the Kushite(ethiopians).....",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+51,"""Yaoooooooo @yea_im_JAMAICAN: Mawnin yardies! &#128154;&#128155;&#128536;""",False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+52,"""Your teeth are like the stars."" ""Aww thanks!"" ""Yeah... yellow and far away from each other.""",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+53,#2013Faves RT &#8220;@grahamorama: #Snoop and #Justin are having so much fun at this Charlie Wilson tribute #BETAwards https://t.co/C6NHwUBlXN&#8221;,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+54,"#AZmonsoon lot of rain, too bad it wasn't enough to wash away the teabagger racist white trash in the state. #Tcot #teaparty #azflooding",False,True,False Positive,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+55,#AskDems Aren't you embarrassed that Charlie Rangel remains in your caucus?,False,True,False Positive,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+56,"#BigBird was made by a gay couple. So yes, under a GOP world the bird would not have existed since its creators would be in jail for sodomy.",False,True,False Positive,True,False Positive,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+57,"#BlessJesus Amos 3:3 - Can two walk together, except they be agreed?",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+58,#BlessJesus Amos 5:10 There are those who hate the one who upholds justice in court and detest the one who tells the truth.,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+59,#BlessJesus The #Crown of HIS head to the sole of HIS feet,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+60,#BlessJesusAir Matthew 6:26 Look at the birds of the air.. and yet your heavenly Father feeds them.Are you not much more valuable than they?,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+61,#BlessJesusLove Happy Belated ( Sixty-Fifth) 65 Birthday *28 Aunt Mary Agnes #Strong,False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+62,#California is full of white trash,False,True,False Positive,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+63,#DTLA is trash because of non-Europeans are allowed to live there.,False,True,False Positive,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+64,"#DerekJeter as a lifelong #Yankees man, I will miss you. #FirstBallot
+#Unanimous",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+65,#Dutch farmers are white trash.,False,True,False Positive,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+66,#Dutch people who live outside of #NewYorkCity are all white trash.,False,True,False Positive,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+67,#EarlyBird #early #morning #sunrise #dawn #bird #thebird #jerryreed @ Kansas City http://t.co/kuVq8UpwUw,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+68,#Ebola Great and I thought the panic from bird flu was bad. I really ain't got time for that.,False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+69,#Ebola is a great metaphor for how #GOP #teaparty policies eat off of vital organs until the host dies. #Tcot #teabaggers,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+70,#ExplainAnAnimePlotBadly Boy with a monkey tail grows up to the the savior of a futuristic yet old earth,False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+71,"#FemaleLogic is worse than the jig, I'm convinced",False,True,False Positive,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+72,#FireCashman Why?? Because I am having to root for the Royals in October. #Yankees,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+73,"#Glory Isaiah Mom asked me if I wanted a brownie I said, no thanks 
+She said what are fasting,",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+74,#HOLIDAYSEASONLIVE @ShyGlizzy @plies Shy Glizzy Feat Plies - FREE THA GANG: http://t.co/pYGOSk0qCP,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+75,#HappyColumbusDay .....hate to sound all #PETA callous and all........but #buffalo had it a LOT WORSE than the #injuns..........,False,True,False Positive,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+76,#HellYeah RT @BaconGawd #No RT @HuffingtonPost Happy Fall! Pumpkin Spice Oreos are here http://t.co/2prvsKantE http://t.co/hleYm0YC29,False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+77,"#HelloBrookland! We're here at the @MonroeStMarket opening! Serving free samples of cider, vegan sliders, brownies! http://t.co/BW9uYtLQu1",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+78,"#HolySpirit Joshua 1:3 Every place that the sole of your foot shall tread upon, that have I given unto you, as I said unto Moses.",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+79,#IU 8 straight nation #college soccer champions! Wow! #hoosiernation #hoosiers &#9917;&#127942;,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+80,"#IU should make me an honorary student, id be way cooler than the other international students. i have my own football card! #hoosiers",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+81,"#IndigenousPeoplesDay .........right. Because these #redskins had a lot of #queens, right? nomg. #sofunny",False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+82,#Minnesota is full of white trash,False,True,False Positive,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+83,"#NP ""Centuries"" ~FOB",False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+84,#Natitude? Okay. I'm only going to say it once. COMB yer BEARDS. #lol #wiggers,False,True,False Positive,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+85,#NowPlaying : BT feat. Tori Amos - Blue Skies (radio edit) on #1069TheArrow - http://t.co/R5wuXA9jB6,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+86,#NowPlaying : Great White - Once Bitten Twice Shy on #1069TheArrow - http://t.co/R5wuXA9jB6,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+87,#NowPlaying : Ian Hunter - Once Bitten Twice Shy on #1069TheArrow - http://t.co/R5wuXA9jB6,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+88,#NowPlaying : The Doors - The WASP (Texas Radio and the Big Beat) on #1069TheArrow - http://t.co/R5wuXA9jB6,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+89,#PDPLive is on November 10th. Get your early bird tickets from http://t.co/7xcL4Kyiuv @LifeOfShan http://t.co/ZcnP1ljoOW,False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+90,#PacerNation 4/4 on the road! Perfect way to continue after #iubb have finished #NBA #Pacers #indiana #hoosiers,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+91,"#RedSox, focus on the #Orioles that knocked you out last year, and not your hatred of the #Yankees for um-teen years! LOL!",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,True,False Positive,True,False Positive
+92,#Royals 2-1!! Fantastic. Ready for tomorrow's sweep of the disposed O's. #Yankees 4ever except this month.,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+93,#RuinAComedian @midnight Charlie Lapdance,False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+94,#SouthCarolina is full of white trash,False,True,False Positive,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+95,#StopWhitePeople RT @ABC7: 9 cases of West Nile virus infections reported in Orange County this year; 105 dead birds found carrying virus,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+96,#TBT love you forever ling ling &#128115;&#128114;&#128152; @brittneycordova http://t.co/KEcfNjyrwE,False,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative,False,True Negative
+97,#TRUTH RT @notashley: David is the Charlie Brown of #Scandal,False,False,True Negative,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+98,"#VinitaHegwood can get a job at the naacp. Or as The AG. I hear they like ""diversity and tolerance"". As long as you ain't a cracker #tcot",False,False,True Negative,False,True Negative,True,False Positive,True,False Positive,False,True Negative,False,True Negative
+99,#WeAreRepublicNotRegime #POTUS BO violated USA sovereignty w/open border/Jihadis/criminal/diseased/Haitians/S.Americans #ImpeachObama,False,True,False Positive,False,True Negative,False,True Negative,True,False Positive,False,True Negative,False,True Negative
+24683,1 loyal girl &gt; 1OO hoes,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24684,"@JimmyMcIver @jerrilyn71 @Doc_68W_ Just like ""FAT CHICKS NEED LOVE TOO"" I guess. 
+Some Jeffrey Dommer Type would be all over that sloppy ho.",True,False,False Negative,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24685,@LowworldsFinest @1stblock_thomas man y'all niggas chill man I'm High af tho . Y'all niggas ain't even tell me who the hoe is &#128564;&#9995;,True,True,True Positive,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24686,@TryHardSilva thisty hoe,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24687,"@_DCorNothing_ @KyariesDa4 he should! I got tired of hearing how he can eat pussy 10,000 ways like damn &#128514;&#128514;",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24688,"ALL HE NEEDS IS A SKIRT!!!
+Sure looks like a bitch to me.
+ http://t.co/89HH52pCUe&#8221;",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24689,Bobby bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24690,"Fat hoes on Twitter calling themselves Barbies, bitch you ain't no damn Barbie you a damn care bear.",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24691,Fuck class gon be a bitch tomorrow,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24692,I dont fuck wit hoes or broke bitches,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24693,I see the same hoes,True,True,True Positive,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24694,If you ask me every bitch gay,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24695,Im only cocky to hoes hmmm i wonder why prolyy cuz i dont fuck wit yall,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24696,ME TOO!!! RT @FreeBandVersace @Miller_Hi_Life i'm finna look for tht hoe...but shiiiid...i know sumptin bout a (cont) http://tl.gd/b245js,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24697,"Once you hate someone, everything they do is offensive. ""Look at this bitch eating those crackers like she own the damn place!""",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24698,RT @1stblock_thomas: @1stBlocJeremiah @LowworldsFinest Nah boa That nigga Wayne run his mouth like a hoe &amp; my girl ain't No hoe so Chill wi&#8230;,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24699,"RT @CauseWereGuys: Freeze bitch, I'm gonna steal your heart http://t.co/zKSYUwV8QV",True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24700,RT @ChicoTheWolf: #DavidPullsBitches &#8220;@davidam_23: #TweetSomethingYouGetAlot Go talk to all your other hoes&#8221;,True,True,True Positive,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24701,RT @DJZeeti: This nigga tried to hate on me to a bitch and she told this cornball im that nigga http://t.co/CJfz9DaUYL,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24702,RT @Dasianah_: The most ghetto bitches be pregnant a/f smh poor kids! &#128531;,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24703,RT @FuckYouIsaac_: Maury 70 years old still exposing hoes,True,True,True Positive,False,False Negative,False,False Negative,False,False Negative,False,False Negative,False,False Negative
+24704,"RT @RIPvuhsace: Porn, the only place where a bitch gon be under the table sucking a niggas dick while he eating dinner with his parents.",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24705,RT @TAXSTONE: Y'all bitches sending inviatations to the wolves than get mad when they at ya door,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24706,RT @Tylar____: @1stBlocJeremiah lol man bitch shut the fuck upppppp,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24707,RT @UNApologetic4: &#128514;RT @Poochda63: X___X RT @COCAINEMOUTH: Only Twitter niggas care bout hairy pussy. Them 5 niggas I fucked today ain't gi&#8230;,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24708,"RT @WElGHTROOM: Rows for the hoes
+
+Curls for the girls
+
+Planks for the skanks 
+
+Deep cuts for the sluts
+
+Quads for the broads
+
+No pecs No s&#8230;",True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24709,RT @_ayeeexo: Fxck outta here hoe &#9996;,True,False,False Negative,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24710,"Reminiscin on my swinger days, when I drove a Caddy and my bitch sported a finger wave",True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24711,Some hoes that tweet just make me mad lol,True,True,True Positive,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24712,This bitch look like kurt cobain older bro,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24713,Why the wifey type girls single and the hoes being cuffed though?,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24714,"bitch whats the plan, yo box irrelevant",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24715,"i seen a nigga dressed to impress, hop out da bus n a bitch wit a phatty, get off at his stop too. Say somethin...GOD THROWIN U DA LOB",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24716,weeknd makes songs for the hoes,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24717,&#8220;@Hermosa_Jayy: Can I bring anotha bitch or nah &#128527;&#8221;,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24718,&#8220;@RileyyBryn: &#8220;@devon_sheaa: I just want panda express&#8221; panera**&#8221; big booty hoe*** &#128514;&#128514;&#128514;&#128514;,True,True,True Positive,False,False Negative,True,True Positive,True,True Positive,False,False Negative,False,False Negative
+24719,"&#8220;@WEEEDITH: All I want is bitches, big boooty bitches&#8221;",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24720,&#8220;@najmaaa_ali: Lool I agree RT&#8220;@stopitfive_: the most fucked up show I ever watched was misfits&#8221;&#8221; wen Simone wifed that hoe was the saddest,True,False,False Negative,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24721,"@CDNBallJunkie Spurs bitch that's the team, you dont want no problems",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24722,@KazAtta he jus need to go to brazil get himself a bad brazilian bitch and jus relax,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24723,@Mijo_LGI you're such a bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24724,@Rasheed_Sheen man damn dude come get this bitch lml,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24725,"@Tee_Bizzle i aint shit, you aint shit...bitch we meant for eachother",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24726,@Tee_Bizzle shut up bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24727,@vampirrrra viva Brazil niggah lol,True,True,True Positive,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24728,A hoe gone be a hoe they ain't &#128175;,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24729,"Amennn!!!!! ""@WomenLoveBrickz: If your girlfriend doesn't like that bitch, you don't talk to that bitch""",True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24730,"As a girlfriend, you gotta accept the fact hoes gone be all up in his face. But as a boyfriend, he better let them hoes know wassup.",True,False,False Negative,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24731,"Bad bitch, chest out......no wonder why Miss Righteous keeps on getting left out",True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24732,Dirty pop on the counter bitch dirty in it,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24733,Doing her thang for you shoutout that real bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24734,Dont fuck wit broke bitches,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24735,"Excuse me, here's your nose. I found it in my business hoe.",True,True,True Positive,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24736,Free Ballout lil bitch &#128520;&#128299;,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24737,Gang gang bitch&#128165;&#128299;,True,True,True Positive,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24738,I did everything except trust these hoes,True,True,True Positive,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24739,I need me a real loyal ass bitch &#128525;&#128553;&#128530;&#128548;&#128175;,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24740,"I'm rich bitch 
+*said in Dave Chappell voice*",True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24741,Naked bitches give me bubble baths,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24742,"One big school, full of fake bitches.",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24743,Pull up on my ex make that bitch mad,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24744,"RT @BeauutifulNae: - don't trust no , bitch",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24745,RT @BootyGangCult: Some of you bitches aren&#8217;t built to wear certain shit. http://t.co/IjTJvYY2VY,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24746,RT @DJZeeti: i couldnt host 106 and park .. i'd fuck too many young bitches,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24747,RT @DedePayton: On the low RT @mzlola_bunny: They're really looking for the next bitch to smash,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24748,RT @HerMoufPiece: Hairy pussy bitch you the type that got herps,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24749,RT @HilariousSelfie: how ugly bitches take selfies &#128557; http://t.co/SNt2iOmhGr,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24750,RT @Iethaldose: Feelings are a bitch to fucking control...,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24751,RT @JoeBudden: Women all over America are overstating the value of pussy.,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24752,RT @LeezyTheWarrior: Can't be letting them messy hoes mess with yo business...,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24753,RT @RakwonOGOD: Lmaoo bitch what? http://t.co/2dhLgXcVg2,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24754,"RT @Tiny2YouHoes: but naawww though, y'all hoes is fu don't fucking play w/me.",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24755,RT @TryHardTee: @davidam_23 get downstairs and play me im fifa bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24756,RT @Tylar____: Man this hoe Heaven stay taking all day,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24757,RT @_DalvinA: &#8220;@Can_iGet_8: I can't stand no messy hoe&#8221;1&#8419;0&#8419;0&#8419;0&#8419; true story,True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24758,"RT @_blvcksxul: When u see a bitch that don&#8217;t like u, look at u&#8230; http://t.co/vAO8ovq4XM",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24759,"RT @_onnaa_: ""@1stBlocJeremiah: Gotta watch these hoes &#128064;"" I Swear &#128079;",True,False,False Negative,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24760,RT @basedamERICan: This burger 3 days old but I eat 19 yr old pussy so I should be fine right ? http://t.co/iHVxyab2vN,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24761,RT @chvmpagne: Bitches that dress like this pussy taste like hot dog water and bad grades. http://t.co/wrfv9Ld6eo,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24762,"RT @declothed: this dogs like 
+""Go on, tell em I ate your bitch ass homework. they ain't never gunna believe your dumb ass"" http://t.co/wLN&#8230;",True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24763,"RT @drphilDONTEhue: Don't curve the man today, in whom you may need to eat your pussy tomorrow",True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24764,RT @gaaybriel: I love pussy &#128523;&#128069;&#128166;&#128166;&#128049;,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24765,RT @titaaaR15: Dumb bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24766,RT @tupactopus: bad bitches get in free night at weenie hut jrs,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24767,RT @vinnycrack: this bitch got the itunes terms and conditions tattooed on her http://t.co/dHRVCNRR1H,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24768,RT @xNikiaaa_: @1stBlocJeremiah damn where you on house arrest at ? &amp; yup in tht bitch like &#128080;&#128131;&#128527;,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24769,RT @xPoppinWheelies: Lol the thirst be so real on dis bitch &#128514;,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24770,Ray Rice is a bitch &amp; his wife is stupid for staying by his side.,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24771,Shoutout that real bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24772,So if a girl gets drunk and does some hoe shit...it's rape now???,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24773,These bitches irri.. irri irri..irri irri,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24774,This one for dem hipster bitches that shop at value village,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24775,Walk in the party boot up yo hoe,True,False,False Negative,False,False Negative,True,True Positive,True,True Positive,False,False Negative,False,False Negative
+24776,Warriors ain't winning shit if Curry keep playin like a bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24777,"Wow my cuzin dont like lil snupe, this niggah trippin",True,False,False Negative,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24778,Y'all hoes so ugh,True,True,True Positive,False,False Negative,False,False Negative,True,True Positive,False,False Negative,False,False Negative
+24779,"all these beautiful bitches, sucha beautiful thing",True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24780,errybody in dis bitch getting tips (whispers) errybody in dis bitch getting tipsy,True,False,False Negative,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24781,man kills mother of 2 after she reveals she's hiv positive after having sex...that bitch deserved it,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
+24782,this bitch,True,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive,True,True Positive
